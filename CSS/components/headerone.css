@@ -1,0 +1,46 @@
+.oneheader {
+    display: flex;
+    background-color: #3a506b;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 330px;
+}
+
+.contacts>i {
+    color: #aab2b9;
+    font-size: 15px;
+}
+
+.contacts>a {
+    color: #aab2b9;
+    font-size: 15px;
+    padding-right: 25px;
+    padding-left: 3px;
+}
+
+.contacts>a:hover {
+    color: #f5f6f7;
+    transition: 0.8s;
+}
+
+.icons {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 380px;
+}
+
+.icons>a {
+    color: #aab2b9;
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+.icons>a:hover {
+    color: #f5f6f7;
+    transition: 0.8s;
+}
