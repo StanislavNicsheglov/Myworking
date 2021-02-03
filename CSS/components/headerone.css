@@ -1,8 +1,13 @@
 .oneheader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     background-color: #3a506b;
     align-items: center;
     justify-content: space-between;
+    z-index: 2;
 }
 
 .contacts {
@@ -13,7 +18,7 @@
 
 .contacts>i {
     color: #aab2b9;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .contacts>a {
