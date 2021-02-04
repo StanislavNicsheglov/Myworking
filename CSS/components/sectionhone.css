@@ -1,6 +1,55 @@
 .home {
     background-image: url(../../widgets/background/man.jpg);
-    height: 98vh;
+    height: 97vh;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.pip {
+    position: relative;
+    top: 300px;
+    left: 1050px;
+    width: 500px;
+    height: 300px;
+}
+
+.pip>h3 {
+    font-size: 65px;
+    color: #333333;
+    font-weight: bolder;
+    line-height: 1.2;
+}
+
+.pip>h2 {
+    font-size: 65px;
+    color: #333333;
+    font-weight: bolder;
+    line-height: 1.2;
+    font-style: italic;
+}
+
+.pip>p {
+    font-size: 18px;
+    color: #8f898a;
+    line-height: 1.5;
+    opacity: 0.7;
+    font-weight: lighter;
+}
+
+.pip>form>button {
+    border-radius: 100px;
+    font-size: 18px;
+    padding: 15px 35px;
+    color: white;
+    background-color: #1c2541;
+    border: none;
+}
+
+.pip>form>button:hover {
+    background-color: #303030;
+    transition: 0.4s;
+}
+
+.pip>form>button:focus {
+    outline: none;
 }

@@ -1,6 +1,6 @@
     .twoheader {
         position: fixed;
-        top: 40px;
+        top: 25px;
         left: 0;
         right: 0;
         display: flex;
@@ -8,8 +8,8 @@
         justify-content: space-between;
         padding-left: 340px;
         padding-right: 400px;
-        padding-bottom: 25px;
-        padding-top: 20px;
+        padding-bottom: 15px;
+        padding-top: 40px;
         background-color: white;
         box-shadow: 0px 5px 5px -5px black;
         z-index: 2;
