@@ -9,13 +9,10 @@
     justify-content: space-between;
     z-index: 3;
     box-shadow: 0px 5px 10px -5px black;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.contacts {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 330px;
-}
 
 .contacts>i {
     color: #aab2b9;
@@ -32,12 +29,6 @@
 .contacts>a:hover {
     color: #f5f6f7;
     transition: 0.8s;
-}
-
-.icons {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-right: 380px;
 }
 
 .icons>a {

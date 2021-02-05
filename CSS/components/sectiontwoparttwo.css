@@ -5,8 +5,6 @@
 }
 
 .partp {
-    width: 780px;
-    height: 300px;
     position: relative;
     top: 0;
     left: 50px;
@@ -14,8 +12,6 @@
 }
 
 .parth {
-    width: 300px;
-    height: 150px;
     position: relative;
     top: 0;
     left: -40px;
@@ -66,31 +62,19 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center -120px;
-    width: 1900px;
-    height: 570px;
 }
 
 .back {
-    width: 1900px;
-    height: 570px;
     background-color: grey;
     opacity: 0.7;
 }
 
 .back2 {
-    position: relative;
-    width: 1900px;
-    height: 570px;
     background-color: black;
     opacity: 0.6;
 }
 
 .first {
-    position: relative;
-    top: -480px;
-    left: 350px;
-    width: 1250px;
-    height: 450px;
     border-top: 1px white solid;
 }
 
@@ -135,9 +119,6 @@
     font-size: 50px;
     text-align: center;
     padding-bottom: 5px;
-    padding-top: 20px;
-    padding-right: 120px;
-    padding-left: 120px;
 }
 
 .two>h3 {
@@ -145,9 +126,6 @@
     font-size: 50px;
     text-align: center;
     padding-bottom: 5px;
-    padding-top: 20px;
-    padding-right: 120px;
-    padding-left: 120px;
 }
 
 .three>h3 {
@@ -155,9 +133,6 @@
     font-size: 50px;
     text-align: center;
     padding-bottom: 5px;
-    padding-top: 20px;
-    padding-right: 120px;
-    padding-left: 120px;
 }
 
 .four>h3 {
@@ -165,43 +140,28 @@
     font-size: 50px;
     text-align: center;
     padding-bottom: 5px;
-    padding-top: 20px;
-    padding-right: 120px;
-    padding-left: 120px;
 }
 
 .one>p {
     color: #aab2b9;
     text-align: center;
     line-height: 2;
-    padding-bottom: 20px;
-    padding-right: 120px;
-    padding-left: 120px;
 }
 
 .two>p {
     color: #aab2b9;
     text-align: center;
     line-height: 2;
-    padding-bottom: 20px;
-    padding-right: 120px;
-    padding-left: 120px;
 }
 
 .three>p {
     color: #aab2b9;
     text-align: center;
     line-height: 2;
-    padding-bottom: 20px;
-    padding-right: 120px;
-    padding-left: 120px;
 }
 
 .four>p {
     color: #aab2b9;
     text-align: center;
     line-height: 2;
-    padding-bottom: 20px;
-    padding-right: 120px;
-    padding-left: 120px;
 }

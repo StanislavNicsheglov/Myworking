@@ -120,7 +120,6 @@
     transition: 0.5s;
     text-decoration: underline;
     text-decoration-color: #aab2b9;
-    text-decoration-thickness: 2px;
 }
 
 .squarethree>a:hover {
@@ -128,5 +127,4 @@
     transition: 0.5s;
     text-decoration: underline;
     text-decoration-color: #aab2b9;
-    text-decoration-thickness: 2px;
 }
