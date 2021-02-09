@@ -1,29 +1,44 @@
-    .twoheader {
-        position: fixed;
-        top: 25px;
-        left: 0;
-        right: 0;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-left: 340px;
-        padding-right: 400px;
-        padding-bottom: 15px;
-        padding-top: 40px;
-        background-color: white;
-        box-shadow: 0px 5px 5px -5px black;
-        z-index: 2;
-    }
-    
-    .parts>a {
-        color: #333333;
-        padding-left: 30px;
-        text-decoration: none;
-    }
-    
-    .parts>a:hover {
-        text-decoration: underline;
-        text-decoration-color: #1c2541;
-        text-decoration-thickness: 2px;
-        color: #1c2541;
-    }
+.twoheader {
+    position: sticky;
+    top: 0px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 5px -5px black;
+    z-index: 1;
+}
+
+.useim {
+    position: relative;
+    left: 11%;
+    width: 10%;
+}
+
+.parts {
+    position: relative;
+    right: 12%;
+    width: 39%;
+    white-space: nowrap;
+}
+
+.parts>a {
+    color: #333333;
+    padding-left: 30px;
+    text-decoration: none;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.parts>a:hover {
+    text-decoration: underline;
+    text-decoration-color: #1c2541;
+    text-decoration-thickness: 2px;
+    color: #1c2541;
+}

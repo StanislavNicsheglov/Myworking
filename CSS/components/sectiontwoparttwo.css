@@ -1,207 +1,227 @@
-.parttwo {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-.partp {
-    width: 780px;
-    height: 300px;
-    position: relative;
-    top: 0;
-    left: 50px;
-    margin-bottom: 100px;
-}
-
-.parth {
-    width: 300px;
-    height: 150px;
-    position: relative;
-    top: 0;
-    left: -40px;
-}
-
-.parth {
-    font-size: 50px;
-    font-weight: bolder;
-}
-
-.parth>h3 {
-    color: #333333;
-}
-
-.parth>h2 {
-    color: #1c2541;
-    font-style: italic;
-}
-
-.partp>p {
-    padding-bottom: 10px;
-    font-size: 17px;
-    line-height: 1.5;
-    color: #7c8287;
-}
-
-.partp>form>button {
-    border-radius: 100px;
-    font-size: 18px;
-    padding: 15px 35px;
-    color: white;
-    background-color: #1c2541;
-    border: none;
-    margin-top: 20px;
-}
-
-.partp>form>button:hover {
-    background-color: #303030;
-    transition: 0.4s;
-}
-
-.partp>form>button:focus {
-    outline: none;
-}
-
-.apart {
-    background-image: url(../../widgets/background/building.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center -120px;
-    width: 1900px;
-    height: 570px;
-}
-
-.back {
-    width: 1900px;
-    height: 570px;
-    background-color: grey;
-    opacity: 0.7;
-}
-
-.back2 {
-    position: relative;
-    width: 1900px;
-    height: 570px;
-    background-color: black;
-    opacity: 0.6;
-}
-
-.first {
-    position: relative;
-    top: -480px;
-    left: 350px;
-    width: 1250px;
-    height: 450px;
-    border-top: 1px white solid;
-}
-
-.first>h3 {
-    margin-top: 30px;
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-.first>p {
-    color: #bebebe;
-    font-size: 20px;
-    text-align: center;
-    line-height: 2;
-    opacity: 0.8;
-}
-
-.numbers {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-    padding-top: 50px;
-}
-
-.one {
-    border-right: 1px #4b4b4a solid;
-}
-
-.two {
-    border-right: 1px #4b4b4a solid;
-}
-
-.three {
-    border-right: 1px #4b4b4a solid;
-}
-
-.one>h3 {
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    padding-bottom: 5px;
-    padding-top: 20px;
-    padding-right: 120px;
-    padding-left: 120px;
-}
-
-.two>h3 {
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    padding-bottom: 5px;
-    padding-top: 20px;
-    padding-right: 120px;
-    padding-left: 120px;
-}
-
-.three>h3 {
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    padding-bottom: 5px;
-    padding-top: 20px;
-    padding-right: 120px;
-    padding-left: 120px;
-}
-
-.four>h3 {
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    padding-bottom: 5px;
-    padding-top: 20px;
-    padding-right: 120px;
-    padding-left: 120px;
-}
-
-.one>p {
-    color: #aab2b9;
-    text-align: center;
-    line-height: 2;
-    padding-bottom: 20px;
-    padding-right: 120px;
-    padding-left: 120px;
-}
-
-.two>p {
-    color: #aab2b9;
-    text-align: center;
-    line-height: 2;
-    padding-bottom: 20px;
-    padding-right: 120px;
-    padding-left: 120px;
-}
-
-.three>p {
-    color: #aab2b9;
-    text-align: center;
-    line-height: 2;
-    padding-bottom: 20px;
-    padding-right: 120px;
-    padding-left: 120px;
-}
-
-.four>p {
-    color: #aab2b9;
-    text-align: center;
-    line-height: 2;
-    padding-bottom: 20px;
-    padding-right: 120px;
-    padding-left: 120px;
-}
+    .about_us {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    .squares {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: -47%;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .square {
+        background-color: #1c2541;
+        width: 21%;
+        height: 28%;
+        margin-right: 2px;
+    }
+    
+    .square>.im1>i {
+        color: white;
+        font-size: 65px;
+        position: relative;
+        margin-top: 10%;
+        left: 42%;
+    }
+    
+    .square>a {
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        display: block;
+        margin: 4% 0%;
+        font-family: "Playfair Display", "Times New Roman", Times, serif;
+    }
+    
+    .square>p {
+        color: #f0f1f3;
+        line-height: 1.6;
+        opacity: 0.9;
+        text-align: center;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    
+    .square>a:hover {
+        color: #aab2b9;
+        transition: 0.5s;
+        text-decoration: underline;
+        text-decoration-color: #aab2b9;
+        text-decoration-thickness: 2px;
+    }
+    
+    .try {
+        background-color: rgb(58, 80, 107);
+    }
+    
+    .try>p {
+        color: #b1b3b6;
+    }
+    
+    .parttwo {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    .parth {
+        margin-top: 18%;
+        position: relative;
+        top: 0;
+        left: -2%;
+        width: 20%;
+    }
+    
+    .parth>h3 {
+        color: #333333;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 1.3;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    
+    .spec {
+        color: #1c2541;
+        font-style: italic;
+    }
+    
+    .partp {
+        margin-top: 18%;
+        margin-bottom: 5%;
+        position: relative;
+        top: 0;
+        left: 4%;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    
+    .partp>p {
+        padding-bottom: 2%;
+        font-size: 17px;
+        line-height: 1.5;
+        color: #7c8287;
+    }
+    
+    .partp>form>button {
+        border-radius: 100px;
+        font-size: 21px;
+        padding: 15px 35px;
+        color: white;
+        background-color: #1c2541;
+        border: none;
+        margin-top: 20px;
+        font-family: "Playfair Display", "Times New Roman", Times, serif;
+        font-weight: 700;
+    }
+    
+    .partp>form>button:hover {
+        background-color: #303030;
+        transition: 0.4s;
+    }
+    
+    .partp>form>button:focus {
+        outline: none;
+    }
+    
+    .apart {
+        background-image: url(../../widgets/background/building.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .first {
+        border-top: 1px white solid;
+    }
+    
+    .first>h3 {
+        margin-top: 30px;
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    
+    .first>p {
+        color: #bebebe;
+        font-size: 20px;
+        text-align: center;
+        line-height: 2;
+        opacity: 0.8;
+    }
+    
+    .numbers {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        padding-top: 50px;
+    }
+    
+    .one {
+        border-right: 1px #4b4b4a solid;
+    }
+    
+    .two {
+        border-right: 1px #4b4b4a solid;
+    }
+    
+    .three {
+        border-right: 1px #4b4b4a solid;
+    }
+    
+    .one>h3 {
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    
+    .two>h3 {
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    
+    .three>h3 {
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    
+    .four>h3 {
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    
+    .one>p {
+        color: #aab2b9;
+        text-align: center;
+        line-height: 2;
+    }
+    
+    .two>p {
+        color: #aab2b9;
+        text-align: center;
+        line-height: 2;
+    }
+    
+    .three>p {
+        color: #aab2b9;
+        text-align: center;
+        line-height: 2;
+    }
+    
+    .four>p {
+        color: #aab2b9;
+        text-align: center;
+        line-height: 2;
+    }
