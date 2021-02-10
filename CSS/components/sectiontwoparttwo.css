@@ -9,15 +9,15 @@
         align-items: center;
         justify-content: center;
         position: absolute;
-        top: -47%;
+        top: -12%;
         width: 100%;
-        height: 100%;
+        height: 23%;
     }
     
     .square {
         background-color: #1c2541;
         width: 21%;
-        height: 28%;
+        height: 100%;
         margin-right: 2px;
     }
     
@@ -128,25 +128,32 @@
     }
     
     .apart {
-        background-image: url(../../widgets/background/building.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        width: 100%;
+        height: 10%;
+        position: relative;
     }
     
-    .first {
-        border-top: 1px white solid;
+    .apart>img {
+        display: block;
+        width: 100%;
+        height: 10%;
     }
     
-    .first>h3 {
-        margin-top: 30px;
+    .vit {
+        position: absolute;
+        top: 0%;
+        left: 15%;
+    }
+    
+    .vit>h3 {
+        padding-top: 5%;
         color: white;
         font-size: 50px;
         text-align: center;
         padding-bottom: 10px;
     }
     
-    .first>p {
+    .vit>p {
         color: #bebebe;
         font-size: 20px;
         text-align: center;
@@ -160,18 +167,16 @@
         justify-content: center;
         margin-top: 10px;
         padding-top: 50px;
+        padding-bottom: 5%;
     }
     
     .one {
-        border-right: 1px #4b4b4a solid;
+        border-right: 1px white solid;
+        padding: 2% 7%;
     }
     
-    .two {
-        border-right: 1px #4b4b4a solid;
-    }
-    
-    .three {
-        border-right: 1px #4b4b4a solid;
+    .ruk {
+        border-right: none;
     }
     
     .one>h3 {
@@ -181,46 +186,7 @@
         padding-bottom: 5px;
     }
     
-    .two>h3 {
-        color: white;
-        font-size: 50px;
-        text-align: center;
-        padding-bottom: 5px;
-    }
-    
-    .three>h3 {
-        color: white;
-        font-size: 50px;
-        text-align: center;
-        padding-bottom: 5px;
-    }
-    
-    .four>h3 {
-        color: white;
-        font-size: 50px;
-        text-align: center;
-        padding-bottom: 5px;
-    }
-    
     .one>p {
-        color: #aab2b9;
-        text-align: center;
-        line-height: 2;
-    }
-    
-    .two>p {
-        color: #aab2b9;
-        text-align: center;
-        line-height: 2;
-    }
-    
-    .three>p {
-        color: #aab2b9;
-        text-align: center;
-        line-height: 2;
-    }
-    
-    .four>p {
         color: #aab2b9;
         text-align: center;
         line-height: 2;
