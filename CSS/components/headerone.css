@@ -3,6 +3,7 @@
     background-color: #3a506b;
     align-items: center;
     justify-content: space-between;
+<<<<<<< HEAD
     padding-top: 0.7%;
     padding-bottom: 0.7%;
     position: relative;
@@ -14,6 +15,14 @@
     position: relative;
     left: 10%;
 }
+=======
+    z-index: 3;
+    box-shadow: 0px 5px 10px -5px black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+>>>>>>> 1e7ccc1d082f940028259072f8a719110a4c1737
 
 .contacts>i {
     color: #aab2b9;
@@ -33,11 +42,14 @@
     transition: 0.8s;
 }
 
+<<<<<<< HEAD
 .icons {
     position: relative;
     right: 120%;
 }
 
+=======
+>>>>>>> 1e7ccc1d082f940028259072f8a719110a4c1737
 .icons>a {
     color: #aab2b9;
     font-size: 15px;
