@@ -1,8 +1,6 @@
 .twoheader {
     position: sticky;
-    top: 0px;
-    left: 0;
-    right: 0;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,7 +8,7 @@
     padding-top: 20px;
     background-color: white;
     box-shadow: 0px 5px 5px -5px black;
-    z-index: 1;
+    z-index: 2;
 }
 
 .useim {

@@ -1,0 +1,93 @@
+.flow {
+    width: 100%;
+    height: 65%;
+    text-align: center;
+}
+
+.deliver {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    margin-top: 2%;
+}
+
+.flow>h3 {
+    color: black;
+    font-size: 48px;
+    opacity: 0.8;
+    font-family: "Playfair Display", "Times New Roman", Times, serif;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+.deliver>form {
+    width: 15%;
+    height: 100%;
+    border: 1px grey solid;
+    border: none;
+    border-bottom: 1px rgba(165, 165, 165, 0.39) solid;
+    margin: 0% 1%;
+}
+
+.deliver>form>input {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.flow>form {
+    width: 50%;
+    height: 40%;
+    border: 1px black solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    border: none;
+    border-bottom: 1px rgba(165, 165, 165, 0.39) solid;
+}
+
+.flow>form>input {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    padding-padding: 80%%;
+}
+
+:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+:focus::-moz-placeholder {
+    color: transparent
+}
+
+:focus:-moz-placeholder {
+    color: transparent
+}
+
+:focus:-ms-input-placeholder {
+    color: transparent
+}
+
+.button>form>button {
+    border-radius: 100px;
+    font-size: 21px;
+    padding: 15px 35px;
+    color: white;
+    background-color: #1c2541;
+    border: none;
+    font-family: "Playfair Display", "Times New Roman", Times, serif;
+    font-weight: 700;
+    margin-top: 3%;
+}
+
+.button>form>button:hover {
+    background-color: #303030;
+    transition: 0.4s;
+}
+
+.button>form>button:focus {
+    outline: none;
+}

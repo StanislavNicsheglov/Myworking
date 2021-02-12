@@ -1,32 +1,46 @@
 .our_team {
     width: 100%;
+    height: 150%;
+}
+
+.text {
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 5%;
+    text-align: center;
 }
 
 .text>h3 {
     font-size: 50px;
     color: #333333;
     font-weight: bolder;
-    padding-bottom: 20px;
+    padding-bottom: 1%;
+    font-family: "Playfair Display", "Times New Roman", Times, serif;
 }
 
 .text>p {
     color: #6a7680;
     font-size: 19px;
     line-height: 2;
-    opacity: 0.8;
+    opacity: 0.6;
+    font-family: "Playfair Display", "Times New Roman", Times, serif;
 }
 
 .photos {
-    width: 60%;
-    height: 100%;
+    width: 100%;
+    height: 25%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    position: relative;
+    top: -18%;
 }
 
 .photo-item {
-    width: 30%;
+    width: 19%;
     position: relative;
+    margin: 0% 0.8%;
 }
 
 .photo-item>img {
@@ -48,8 +62,105 @@
     background-color: rgba(0, 0, 0, .8);
     transition: .5s;
     color: #fff;
+    text-align: center;
 }
 
 .photo-item:hover .photo-inner {
     opacity: 1;
+}
+
+.photo-inner>h3 {
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+
+.photo-inner>p {
+    font-size: 17px;
+    line-height: 1.5;
+    opacity: 0.6;
+}
+
+.pup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.pup>a {
+    color: white;
+    margin: 0% 25%;
+}
+
+.ogo {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    background-image: url(../../widgets/background/bigbuilding.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: -5%;
+}
+
+.ogobc {
+    background-color: rgba(51, 49, 49, 0.8);
+    width: 100%;
+    height: 100%;
+}
+
+.part_of_ogo_for_text {
+    position: absolute;
+    top: 18%;
+    width: 100%;
+    text-align: center;
+}
+
+.part_of_ogo_for_text>h3 {
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+    line-height: 1.2;
+    font-family: "Playfair Display", "Times New Roman", Times, serif;
+    text-transform: capitalize;
+}
+
+.part_of_ogo_for_text>.h3do {
+    font-style: oblique;
+    font-size: 65px;
+}
+
+.h3bor {
+    border-top: 2px white solid;
+    padding-top: 2%;
+}
+
+.part_of_ogo_for_text>p {
+    font-size: 16px;
+    color: white;
+    line-height: 2;
+    opacity: 1;
+    font-weight: lighter;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 1% 0%;
+}
+
+.part_of_ogo_for_text>form>button {
+    border-radius: 100px;
+    font-size: 19px;
+    padding: 15px 35px;
+    color: white;
+    background-color: #1c2541;
+    border: none;
+    font-family: "Playfair Display", "Times New Roman", Times, serif;
+    font-weight: 530;
+}
+
+.part_of_ogo_for_text>form>button:hover {
+    background-color: #303030;
+    transition: 0.4s;
+}
+
+.part_of_ogo_for_text>form>button:focus {
+    outline: none;
 }

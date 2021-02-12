@@ -1,6 +1,6 @@
 .home {
     background-image: url(../../widgets/background/man.jpg);
-    height: 88vh;
+    height: 81%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,6 +12,7 @@
 .pip {
     position: relative;
     width: 26%;
+    height: 43%;
     top: -8%;
     right: 17%;
 }
