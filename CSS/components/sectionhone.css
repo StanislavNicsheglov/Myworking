@@ -1,52 +1,45 @@
-.home {
+.nesection {
+    height: 80%;
+    width: 100%;
     background-image: url(../../widgets/background/man.jpg);
-    height: 81%;
     background-repeat: no-repeat;
     background-size: cover;
-<<<<<<< HEAD
     background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    border: 1px rgba(255, 255, 255, 0) solid;
 }
 
-.pip {
-    position: relative;
-    width: 26%;
-    height: 43%;
-    top: -8%;
-    right: 17%;
-=======
-
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
->>>>>>> 1e7ccc1d082f940028259072f8a719110a4c1737
+.pipo {
+    width: 25%;
+    height: 50%;
+    margin-top: 7.5%;
+    margin-left: 55%;
 }
 
-.pip>h3 {
-    font-size: 65px;
+.pipo>h3 {
+    font-size: 67px;
     color: #333333;
     font-weight: 800;
     line-height: 1.2;
     font-family: "Playfair Display", "Times New Roman", Times, serif;
     letter-spacing: -3px;
+    margin-bottom: 2%;
 }
 
-.help {
+.holp {
     font-style: italic;
 }
 
-.pip>p {
+.pipo>p {
     font-size: 16px;
     color: #8f898a;
     line-height: 2;
     opacity: 1;
-    font-weight: lighter;
+    font-weight: 300;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin-bottom: 6%;
 }
 
-.pip>form>button {
+.pipo>form>button {
     border-radius: 100px;
     font-size: 21px;
     padding: 15px 35px;
@@ -57,11 +50,11 @@
     font-weight: 700;
 }
 
-.pip>form>button:hover {
+.pipo>form>button:hover {
     background-color: #303030;
     transition: 0.4s;
 }
 
-.pip>form>button:focus {
+.pipo>form>button:focus {
     outline: none;
 }

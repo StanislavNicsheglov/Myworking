@@ -52,7 +52,7 @@
     color: white;
     opacity: 0.6;
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .part>form>button {
@@ -98,8 +98,12 @@
 
 .sre {
     color: white;
-    line-height: 1.5;
+    line-height: 2;
     font-size: 18px;
+}
+
+.g {
+    display: inline;
 }
 
 .part>form>input {

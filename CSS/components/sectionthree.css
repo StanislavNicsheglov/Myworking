@@ -1,49 +1,53 @@
 .our_team {
     width: 100%;
-    height: 150%;
+    height: 135%;
+    border: 1px rgba(255, 255, 255, 0) solid;
 }
 
+
+/* Первая часть */
+
+
+/* Текст  */
+
 .text {
-<<<<<<< HEAD
     width: 100%;
-    height: 40%;
-    position: relative;
-    top: 5%;
+    height: 10%;
     text-align: center;
-=======
-    margin-bottom: 80px;
->>>>>>> 1e7ccc1d082f940028259072f8a719110a4c1737
+    margin-top: 6%;
 }
 
 .text>h3 {
     font-size: 50px;
     color: #333333;
     font-weight: bolder;
-    padding-bottom: 1%;
+    margin-bottom: 1%;
     font-family: "Playfair Display", "Times New Roman", Times, serif;
+    margin-top: 1%;
 }
 
 .text>p {
-    color: #6a7680;
-    font-size: 19px;
+    color: #868585;
+    font-size: 18.5px;
     line-height: 2;
-    opacity: 0.6;
     font-family: "Playfair Display", "Times New Roman", Times, serif;
 }
 
+
+/* Фотографии */
+
 .photos {
     width: 100%;
-    height: 25%;
+    height: 37%;
     display: flex;
     align-items: center;
-<<<<<<< HEAD
     justify-content: center;
-    position: relative;
-    top: -18%;
+    margin-top: 1%;
 }
 
 .photo-item {
     width: 19%;
+    height: 100%;
     position: relative;
     margin: 0% 0.8%;
 }
@@ -97,15 +101,18 @@
     margin: 0% 25%;
 }
 
+
+/* Вторая часть */
+
 .ogo {
     position: relative;
     width: 100%;
-    height: 40%;
+    height: 38%;
     background-image: url(../../widgets/background/bigbuilding.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    top: -5%;
+    margin-top: 3%;
 }
 
 .ogobc {
@@ -116,12 +123,18 @@
 
 .part_of_ogo_for_text {
     position: absolute;
-    top: 18%;
-    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     text-align: center;
 }
 
-.part_of_ogo_for_text>h3 {
+.op {
+    margin-top: 6%;
+}
+
+.op>h3 {
     font-size: 50px;
     color: white;
     font-weight: 800;
@@ -130,7 +143,7 @@
     text-transform: capitalize;
 }
 
-.part_of_ogo_for_text>.h3do {
+.op>.h3do {
     font-style: oblique;
     font-size: 65px;
 }
@@ -169,39 +182,3 @@
 .part_of_ogo_for_text>form>button:focus {
     outline: none;
 }
-=======
-    justify-content: space-between;
-}
-
-.photo-item {
-    width: 30%;
-    position: relative;
-}
-
-.photo-item > img {
-    width: 100%;
-    height: 100%;
-}
-
-
-.photo-inner {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    opacity: 0;
-    background-color: rgba(0, 0, 0, .8);
-    transition: .5s;
-    color: #fff;
-}
-
-.photo-item:hover .photo-inner {
-    opacity: 1;
-}
-
->>>>>>> 1e7ccc1d082f940028259072f8a719110a4c1737

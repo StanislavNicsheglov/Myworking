@@ -1,7 +1,8 @@
 .flow {
     width: 100%;
-    height: 65%;
+    height: 70%;
     text-align: center;
+    border: 1px rgba(255, 255, 255, 0) solid;
 }
 
 .deliver {
@@ -19,7 +20,7 @@
     opacity: 0.8;
     font-family: "Playfair Display", "Times New Roman", Times, serif;
     font-weight: 600;
-    margin-top: 8%;
+    margin-top: 7%;
 }
 
 .deliver>form {
@@ -39,7 +40,7 @@
 
 .flow>form {
     width: 50%;
-    height: 40%;
+    height: 25%;
     border: 1px black solid;
     margin-left: auto;
     margin-right: auto;

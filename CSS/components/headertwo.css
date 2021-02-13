@@ -1,59 +1,39 @@
-.twoheader {
-<<<<<<< HEAD
-    position: sticky;
-    top: 0;
-=======
-    position: fixed;
-    top: 25px;
-    left: 0;
-    right: 0;
->>>>>>> 1e7ccc1d082f940028259072f8a719110a4c1737
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 20px;
-<<<<<<< HEAD
-    padding-top: 20px;
-=======
-    padding-top: 40px;
->>>>>>> 1e7ccc1d082f940028259072f8a719110a4c1737
-    background-color: white;
-    box-shadow: 0px 5px 5px -5px black;
-    z-index: 2;
-}
-
-<<<<<<< HEAD
-.useim {
-    position: relative;
-    left: 11%;
-    width: 10%;
-}
-
-.parts {
-    position: relative;
-    right: 12%;
-    width: 39%;
-    white-space: nowrap;
-}
-
-=======
->>>>>>> 1e7ccc1d082f940028259072f8a719110a4c1737
-.parts>a {
-    color: #333333;
-    padding-left: 30px;
-    text-decoration: none;
-<<<<<<< HEAD
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-weight: 600;
-    font-size: 13px;
-    letter-spacing: 2px;
-=======
->>>>>>> 1e7ccc1d082f940028259072f8a719110a4c1737
-}
-
-.parts>a:hover {
-    text-decoration: underline;
-    text-decoration-color: #1c2541;
-    text-decoration-thickness: 2px;
-    color: #1c2541;
-}
+    .twoheader {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        height: 8%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        box-shadow: 0px 5px 5px -5px black;
+        z-index: 1;
+    }
+    
+    .useim {
+        width: 8%;
+        margin-left: 19%;
+    }
+    
+    .parts {
+        margin-right: 20%;
+        width: 30%;
+    }
+    
+    .parts>a {
+        color: #333333;
+        text-decoration: none;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        letter-spacing: 2px;
+        margin-left: 3.9%;
+    }
+    
+    .parts>a:hover {
+        text-decoration: underline;
+        text-decoration-color: #1c2541;
+        text-decoration-thickness: 2px;
+        color: #1c2541;
+    }
