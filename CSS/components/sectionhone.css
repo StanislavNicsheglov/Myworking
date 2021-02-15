@@ -1,18 +1,13 @@
 .nesection {
-    height: 80%;
-    width: 100%;
     background-image: url(../../widgets/background/man.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
     border: 1px rgba(255, 255, 255, 0) solid;
-}
+    height: 90vh;
 
-.pipo {
-    width: 25%;
-    height: 50%;
-    margin-top: 7.5%;
-    margin-left: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .pipo>h3 {
@@ -22,21 +17,22 @@
     line-height: 1.2;
     font-family: "Playfair Display", "Times New Roman", Times, serif;
     letter-spacing: -3px;
-    margin-bottom: 2%;
 }
 
 .holp {
     font-style: italic;
+    font-family: 'Playfair Display', serif;
+
 }
 
 .pipo>p {
     font-size: 16px;
     color: #8f898a;
     line-height: 2;
-    opacity: 1;
     font-weight: 300;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    margin-bottom: 6%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
 }
 
 .pipo>form>button {
@@ -46,7 +42,7 @@
     color: white;
     background-color: #1c2541;
     border: none;
-    font-family: "Playfair Display", "Times New Roman", Times, serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
 

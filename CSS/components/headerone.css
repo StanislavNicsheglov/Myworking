@@ -3,18 +3,12 @@
     align-items: center;
     justify-content: space-between;
     background-color: #3a506b;
-    width: 100%;
-    height: 4%;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.contacts {
-    width: 38%;
-    margin-left: 19%;
-}
-
-.icons {
-    margin-right: 19%;
-    width: 8%;
+.contacts, .icons {
+    display: flex;
 }
 
 .contacts>i {
@@ -23,11 +17,10 @@
 }
 
 .contacts>a {
+    margin-right: 15px;
     color: #aab2b9;
     font-size: 15px;
-    margin-right: 3%;
-    margin-left: 1%;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 200;
 }
 
 .contacts>a:hover {

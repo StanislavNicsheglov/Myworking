@@ -1,7 +1,6 @@
 .about_us {
-    width: 100%;
-    height: 120%;
     border: 1px rgba(255, 255, 255, 0) solid;
+    position: relative;
 }
 
 
@@ -10,25 +9,24 @@
 .squares {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 22%;
-    margin-top: -5.4%;
+    justify-content: space-between;
+    position: relative;
+    top: -85px;
 }
 
 .square {
     background-color: #1c2541;
-    width: 20%;
-    height: 100%;
-    margin-right: 0.1%;
+    width: 32%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .im1>i {
     color: white;
     font-size: 65px;
-    margin-top: 10%;
-    display: block;
-    text-align: center;
 }
 
 .square>a {
@@ -38,7 +36,7 @@
     font-weight: 600;
     display: block;
     margin: 4% 0%;
-    font-family: "Playfair Display", "Times New Roman", Times, serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .square>p {
@@ -46,7 +44,6 @@
     line-height: 1.6;
     opacity: 0.9;
     text-align: center;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .square>a:hover {
@@ -54,7 +51,6 @@
     transition: 0.5s;
     text-decoration: underline;
     text-decoration-color: #aab2b9;
-    text-decoration-thickness: 2px;
 }
 
 .try {
@@ -72,8 +68,6 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    width: 100%;
-    height: 29%;
     margin-top: 4%;
 }
 
@@ -81,36 +75,33 @@
 /* Первый блок */
 
 .parth {
-    width: 16%;
-    margin-left: 20%;
+    width: 30%;
+    line-height: 1.3;
 }
 
 .parth>h3 {
     color: #333333;
     font-size: 45px;
     font-weight: 700;
-    line-height: 1.3;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .spec {
     color: #1c2541;
     font-style: italic;
+    font-family: 'Playfair Display', serif;
 }
 
 
 /* Второй блок */
 
 .partp {
-    height: 100%;
-    margin-right: 17%;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .partp>p {
-    padding-bottom: 2%;
-    font-size: 17px;
-    line-height: 1.5;
+    margin-bottom: 2%;
+    font-size: 14px;
+    line-height: 1.9;
     color: #7c8287;
 }
 
@@ -140,13 +131,12 @@
 
 .apart {
     margin-top: 2.7%;
-    width: 100%;
-    height: 47%;
     background-image: url(../../widgets/background/building.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
+    z-index: 1;
 }
 
 .colorfor {
@@ -156,14 +146,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-}
-
-.vit {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    z-index: -1;
 }
 
 .vit>h3 {
@@ -171,8 +154,9 @@
     color: white;
     font-size: 50px;
     text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
     padding-bottom: 1%;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .hsp {
@@ -203,7 +187,7 @@
 }
 
 .one {
-    border-right: 1px white solid;
+    border-right: .5px white solid;
     padding: 2% 7%;
 }
 
@@ -223,5 +207,4 @@
     color: #aab2b9;
     text-align: center;
     line-height: 2;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
